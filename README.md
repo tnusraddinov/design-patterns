@@ -1,5 +1,7 @@
 # design-patterns
 
+https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know/
+
 ## 1. Creational: 
 These patterns are designed for class instantiation. They can be either class-creation patterns or object-creational patterns.
     
