@@ -1,8 +1,8 @@
 package org.example.structural;
 
-import org.example.structural.decorator.HouseBlend;
-import org.example.structural.decorator.Milk;
-import org.example.structural.decorator.Sugar;
+import org.example.structural.decorator_001.HouseBlend;
+import org.example.structural.decorator_001.Milk;
+import org.example.structural.decorator_001.Sugar;
 
 public class MainDecorator {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package org.example.structural.decorator;
+package org.example.structural.decorator_001;
 
 public class Sugar extends AddOn{
     public Sugar(Beverage beverage) {
