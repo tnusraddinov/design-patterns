@@ -1,8 +1,4 @@
-package org.example.creational;
-
-import org.example.creational.singleton.EagerSingleton;
-import org.example.creational.singleton.LazySingleton;
-import org.example.creational.singleton.ThreadSafeSingleton;
+package org.example.creational.singleton_001;
 
 public class MainSingleton {
     public static void main(String[] args) {

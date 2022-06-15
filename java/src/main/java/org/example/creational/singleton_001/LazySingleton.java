@@ -1,4 +1,4 @@
-package org.example.creational.singleton;
+package org.example.creational.singleton_001;
 
 public class LazySingleton {
     private static LazySingleton instance;

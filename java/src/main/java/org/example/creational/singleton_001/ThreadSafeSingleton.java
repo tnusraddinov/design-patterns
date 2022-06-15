@@ -1,4 +1,4 @@
-package org.example.creational.singleton;
+package org.example.creational.singleton_001;
 
 public class ThreadSafeSingleton {
     private static ThreadSafeSingleton instance = null;
