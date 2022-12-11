@@ -13,12 +13,9 @@ public class MediaAdapter implements MediaPlayer {
     );
 
     @Override
-    public void play(MediaFormat audioType, String fileName) {
-        AdvancedMediaPlayer advancedMediaPlayer = advancedMediaPlayerMap.get(audioType);
-        if (audioType.equals(MediaFormat.VLC)) {
-            advancedMediaPlayer.playVlc(fileName);
-        } else if (audioType.equals(MediaFormat.MP4)) {
-            advancedMediaPlayer.playMp4(fileName);
-        }
+    public void play(MediaFormat mediaFormat, String fileName) {
+        AdvancedMediaPlayer advancedMediaPlayer = advancedMediaPlayerMap.getOrDefault(mediaFormat,
+                new UnsupportedFormatPlayer());
+        advancedMediaPlayer.play(fileName);
     }
 }
