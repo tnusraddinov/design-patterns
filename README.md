@@ -9,7 +9,7 @@ These patterns are designed for class instantiation. They can be either class-cr
   - Eager
   - Lazy
   - Thread safe
-
+- Factory
 
 ## 2. Structural: 
 These patterns are designed with regard to a class's structure and composition. The main goal of most of these patterns is to increase the functionality of the class(es) involved, without changing much of its composition.
