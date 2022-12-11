@@ -1,5 +1,6 @@
 # design-patterns
 
+https://www.digitalocean.com/community/tutorials/java-design-patterns-example-tutorial
 https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know/
 
 ## 1. Creational: 
