@@ -2,6 +2,7 @@
 
 https://www.digitalocean.com/community/tutorials/java-design-patterns-example-tutorial
 https://www.javatpoint.com/design-patterns-in-java
+https://www.tutorialspoint.com/design_pattern/index.htm
 https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know/
 
 ## 1. Creational: 
@@ -12,6 +13,7 @@ These patterns are designed for class instantiation. They can be either class-cr
   - Lazy
   - Thread safe
 - Factory
+- Builder (_"construct a complex object from simple objects using step-by-step approach"_)
 
 ## 2. Structural: 
 These patterns are designed with regard to a class's structure and composition. The main goal of most of these patterns is to increase the functionality of the class(es) involved, without changing much of its composition.
